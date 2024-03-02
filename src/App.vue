@@ -4,7 +4,7 @@ import BottomSignature from '@/components/BottomSignature.vue'
 </script>
 
 <template>
-  <div class="bg-white w-4/5 m-auto rounded-xl shadow-xl mt-14 flex flex-col items-center">
+  <div class="bg-white w-4/5 m-auto rounded-xl shadow-2xl  flex flex-col h-screen items-center">
     <RouterView />
     <BottomSignature />
   </div>
